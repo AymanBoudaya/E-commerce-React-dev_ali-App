@@ -1,5 +1,5 @@
 import { ExpandMore, ShoppingCartCheckoutOutlined } from "@mui/icons-material";
-import { Container, IconButton, List, ListItem, ListItemText, Menu, MenuItem, Stack, Typography, alpha, styled, useTheme } from "@mui/material";
+import { Container, IconButton, List, ListItem, ListItemText, Menu, MenuItem, Stack, Typography, styled, useTheme } from "@mui/material";
 import SearchIcon from '@mui/icons-material/Search';
 import InputBase from '@mui/material/InputBase';
 import Person2OutlinedIcon from '@mui/icons-material/Person2Outlined';
@@ -27,7 +27,7 @@ const Search = styled('div')(({ theme }) => ({
   minWidth: '300px',
   [theme.breakpoints.up('sm')]: {
     marginLeft: theme.spacing(3),
-    width: 'auto',
+    width: '330px',
   },
 }));
 

@@ -15,7 +15,6 @@ import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import {
   SportsEsportsOutlined,
-  ElectricBikeOutlined,
   LaptopChromebookOutlined,
   MenuBookOutlined,
   BikeScooterOutlined,
