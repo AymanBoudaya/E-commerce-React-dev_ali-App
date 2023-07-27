@@ -6,3 +6,15 @@
   .border {
     border: 2px solid red;
   }
+  .myButton {
+    border-radius: 5px !important;
+    border: 1px solid #888 !important;
+
+    text-transform: capitalize !important;
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+
+    font-style: 16px !important;
+  }
+
+  

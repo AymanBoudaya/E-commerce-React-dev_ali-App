@@ -4,6 +4,8 @@ import Header1 from "./components/header/Header1"
 import Header2 from "./components/header/Header2"
 import Header3 from "./components/header/Header3"
 import Hero from "./components/hero/Hero";
+import Main from "./components/main/main";
+import Footer from "./components/footer/footer";
 
 
 function App() {
@@ -23,8 +25,10 @@ function App() {
 <Box bgcolor={theme.
 // @ts-ignore
 palette.bg.main}>
-          <Hero/>
+          <Hero/> 
+          <Main/>
 </Box>
+      <Footer/>
       </ThemeProvider>
     </ColorModeContext.Provider>
   )

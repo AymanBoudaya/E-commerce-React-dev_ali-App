@@ -13,8 +13,9 @@ import WorkspacePremiumOutlinedIcon from "@mui/icons-material/WorkspacePremiumOu
 import AccessAlarmOutlinedIcon from "@mui/icons-material/AccessAlarmOutlined";
 
 export default function IconSection() {
+  const theme = useTheme();
   return (
-    <Container sx={{ bgcolor: "#000" }}>
+    <Container sx={{ mt:3, bgcolor: theme.palette.mode === "dark" ? "#000" : "#fff" }}>
       <Stack
         direction={"row"}
         alignItems={"center"}
@@ -57,7 +58,7 @@ const MyBox = ({ icon, title, subtitle }) => {
     <Box
       sx={{
         width: 250,
-        display: "flex",
+        display: "flex", 
         flexGrow: 1,
         alignItems: "center",
         gap: 3,

@@ -28,6 +28,7 @@ export default function Hero() {
     <Container>
       <Box
         sx={{
+          pt:2,
           mt: 2.5,
           display: "flex",
           alignItems: "center",
@@ -38,17 +39,16 @@ export default function Hero() {
         <Swiper
           loop={true}
           pagination={{
-            dynamicBullets: true,
+          dynamicBullets: true,
           }}
           modules={[Pagination]}
           className="mySwiper"
         >
           {mySlider.map((item) => {
             return (
-              <SwiperSlide key={item.link} className="parent-slider border">
+              <SwiperSlide key={item.link} className="parent-slider">
                 <img src={item.link} alt="" width={"100%"} />
                 <Box
-                  className="border"
                   sx={{
                     [theme.breakpoints.up("sm")]: {
                       position: "absolute",
